@@ -4,6 +4,20 @@
              xmlns:local="clr-namespace:pomotato"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
+        <ResourceDictionary>
+
+            <ResourceDictionary.MergedDictionaries>
+
+                <ResourceDictionary Source="Assets/Styles/Page.xaml" />
+                <ResourceDictionary Source="Assets/Styles/Image.xaml" />
+                <ResourceDictionary Source="Assets/Styles/Text.xaml" />
+                <ResourceDictionary Source="Assets/Styles/Button.xaml" />
+                <ResourceDictionary Source="Utils/DataTemplate.xaml" />
+
+            </ResourceDictionary.MergedDictionaries>
+
+        </ResourceDictionary>
+
     </Application.Resources>
 </Application>

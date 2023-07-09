@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace pomotato
+namespace pomotato.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CountDown.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CountDown : UserControl
     {
-        public MainWindow()
+        public CountDown()
         {
             InitializeComponent();
-        }
-
-        private void CloseApp_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
         }
     }
 }
